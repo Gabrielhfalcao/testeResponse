@@ -1,0 +1,27 @@
+@media (max-width: 600px) {
+    .caixaPrincipal{
+        width: 90%;
+    }
+
+    .titulo{
+        max-width: 100%;
+    }
+
+    .titulo p{
+       font-size: 20px;
+    }
+
+    .subtitulo{
+        font-size: 10px;
+    }
+
+    .tituloEntradaDeDados{
+        padding-left: 0px;
+        font-size: 25px;
+        padding: 20px;
+    }
+
+    .tituloEspacoEntradas{
+        font-size: 20px;
+    }
+}

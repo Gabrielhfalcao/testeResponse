@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/homepage.css">
+    <link rel="stylesheet" href="../static/entradaDeDados.css">
+    <link rel="stylesheet" href="../static/homeMobile.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Início</title>
+</head>
+<body>        
+    <div class="caixaPrincipal" id="caixaPrincipal">
+        <div class="titulo" id="titulo">
+            <p>Análise de Dados</p>
+        </div>
+
+        <div class="subtitulo" id="subtitulo">
+            <p>Aqui você pode realizar análises estatísticas </p>
+        </div>
+
+        <div class="bot" id="bot">
+            <input type="button" value="Iniciar" class="botao" onclick="alterarParaEntradadaDeDados()"/>   
+        </div>
+        <div class="tituloEntradaDeDados" id="tituloEntradaDeDados">
+            <p>> Entrada de Dados</p>
+        </div>
+
+        <div class="subtituloEntradaDeDados" id="subtituloEntradaDeDados">
+            <p>Digite o tamanho da lista de dados: </p>
+        </div>
+
+        <div class="inputEntradaDeDados" id="inputEntradaDeDados">
+            <input type="number" id="inputDados" class="inputDados">
+        </div>
+
+        <div class="botEntradaDeDados" id="botEntradaDeDados">
+            <input type="button" value=">" class="botaoEntradaDeDados" onclick="alterarParaEspacoEntradaDeDados()"/>   
+        </div>
+
+        <div class="espacoInputEntradas" id="espacoInputEntradas">
+            <div class="tituloEspacoEntradas">
+                <p style="padding-left: 30px;">> Digite os elementos da lista:</p>
+            </div>
+
+            <div id="containerInputs" class="containerInputs"></div>
+
+            <div class="botEspacoEntradaDeDados" id="botEspacoEntradaDeDados">
+                <input type="button" value=">" class="botaoEspacoEntradaDeDados" onclick="alterarParaMenuPrincipal()"/>   
+            </div>
+        </div>
+
+        <div class="tituloMenuPrincipal" id="tituloMenuPrincipal">
+            <p>Menu Principal</p>
+        </div>
+
+        <div class="listaDigitada" id="listaDigitada">
+            <p>[Lista]</p>
+        </div>
+
+        <div class="opcaoMediaAritmetica" id="opcaoMediaAritmetica">
+            <p>Média Aritmética</p>
+        </div>
+
+        <div class="opcaoMediaPonderada" id="opcaoMediaPonderada">
+            <p>Média Ponderada</p>
+        </div>
+
+        <div class="moda" id="moda">
+            <p>Moda</p>
+        </div>
+
+        <div class="mediana" id="mediana">
+            <p>Mediana</p>
+        </div>
+
+        <div class="botRedigitarLista" id="botRedigitarLista">
+            <input type="button" value="Redigitar Lista" class="botaoRedigitarLista" onclick=""/>   
+        </div>
+    </div>
+
+    <script src="../static/homepage.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

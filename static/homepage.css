@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;700;800&display=swap');
+
+html{
+    width: 100%;
+    height: 100%;
+    font-family: 'Inconsolata', monospace;
+}
+
+body{
+    background: linear-gradient(-145deg, rgb(130, 55, 188), rgb(0, 35, 82));
+    margin: 0px;
+}
+
+.caixaPrincipal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    -webkit-touch-callout: none;  
+    -webkit-user-select: none;    
+    -khtml-user-select: none;     
+    -moz-user-select: none;       
+    -ms-user-select: none;        
+    user-select: none; 
+    overflow: hidden;
+    display: flex;
+}
+
+.inicio{
+    width: 100%;
+    height: fit-content;
+}
+
+.titulo{
+    position: absolute;
+    left: 0px;
+    width: 600px;
+    text-align: center;
+    position: absolute;
+    top: 30px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.subtitulo{
+    position: absolute;
+    left: 0px;
+    width: 600px;
+    width: 100%;
+    font-size: 15px;
+    font-family: 'Inconsolata', monospace;
+    color: white;
+    text-align: center;
+    line-height: 270px;
+}
+
+.bot{
+    text-align: center;
+    left: 0px;
+    width: 600px;
+    width: 100%;
+    position: absolute;
+    bottom: 30px;
+}
+
+.botao{
+    width: 60%;
+    height: 50px;
+    background: linear-gradient(-145deg, rgb(130, 55, 188), rgb(0, 35, 82));
+    border-radius: 50px;
+    color: white;
+    border: none;
+    box-shadow: 15px 20px 100px rgba(15,10,-100,0.7);
+    font-family: 'Inconsolata', monospace;
+    font-size: 15px;
+    font-weight: 700;
+    box-sizing: border-box;
+    bottom: 30px;
+}
+
+.botao:hover{
+    box-shadow: 0px 0px 100px rgba(15,10,10000000,0.7);
+    background: linear-gradient(-135deg, #932dc2, #2d47c9);
+    cursor:pointer;
+}
+
+.tituloEntradaDeDados{
+    position: absolute;
+    padding-left: 60px;
+    padding-top: 10px;
+    left: 600px;
+    width: 600px;
+    text-align: left;
+    position: absolute;
+    top: 0px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.subtituloEntradaDeDados{
+    position: absolute;
+    left: 600px;
+    width: 100%;
+    padding-top: 5px;
+    font-size: 15px;
+    font-family: 'Inconsolata', monospace;
+    color: white;
+    text-align: center;
+    line-height: 140px;
+}
+
+.inputEntradaDeDados{
+    position: absolute;
+    left: 600px;
+    width: 100%;
+    text-align: center;
+    bottom: 90px;
+}
+
+.inputDados{
+    width: 80%;
+    border: none;
+    height: 60px;
+    font-size: 15px;
+    font-family: 'Inconsolata', monospace;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 40px;
+    padding-left: 20px;
+}
+
+.botEntradaDeDados{
+    text-align: center;
+    left: 600px;
+    width: 600px;
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+}
+
+.botaoEntradaDeDados{
+    width: 30%;
+    height: 50px;
+    background: linear-gradient(-145deg, rgb(130, 55, 188), rgb(0, 35, 82));
+    border-radius: 50px;
+    color: white;
+    border: none;
+    box-shadow: 15px 20px 100px rgba(15,10,-100,0.7);
+    font-family: 'Inconsolata', monospace;
+    font-size: 15px;
+    font-weight: 700;
+    box-sizing: border-box;
+    bottom: 30px;
+}
+
+.botaoEntradaDeDados:hover{
+    box-shadow: 0px 0px 100px rgba(15,10,10000000,0.7);
+    background: linear-gradient(-135deg, #932dc2, #2d47c9);
+    cursor:pointer;
+}
+.espacoInputEntradas{
+    position: absolute;
+    left: 600px;
+    width: 100%;
+}
+
+.containerInputs{
+    width: 100%;
+    text-align: center;
+    margin-top: 92px;
+    max-height: 320px;
+    padding-top: 2px;
+    overflow: auto;
+}
+
+.containerInputs input{
+    width: 80%;
+    border: none;
+    height: 30px;
+    font-size: 15px;
+    font-family: 'Inconsolata', monospace;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.tituloEspacoEntradas{
+    width: 100%;
+    text-align: left;
+    padding-top: 10px;
+    position: absolute;
+    top: 0px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.botEspacoEntradaDeDados{
+    text-align: center;
+    width: 600px;
+    width: 100%;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.botaoEspacoEntradaDeDados{
+    width: 30%;
+    height: 50px;
+    background: linear-gradient(-145deg, rgb(130, 55, 188), rgb(0, 35, 82));
+    border-radius: 50px;
+    color: white;
+    border: none;
+    box-shadow: 15px 20px 100px rgba(15,10,-100,0.7);
+    font-family: 'Inconsolata', monospace;
+    font-size: 15px;
+    font-weight: 700;
+    box-sizing: border-box;
+}
+
+.botaoEspacoEntradaDeDados:hover{
+    box-shadow: 0px 0px 100px rgba(15,10,10000000,0.7);
+    background: linear-gradient(-135deg, #932dc2, #2d47c9);
+    cursor:pointer;
+}
+
+.containerInputs::-webkit-scrollbar-track{
+	border-radius: 30px;
+}
+
+.containerInputs::-webkit-scrollbar{
+	width: 6px;
+}
+
+.containerInputs::-webkit-scrollbar-thumb{
+	border-radius: 12px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: rgba(0,0,0,.3);
+}
+
+.tituloMenuPrincipal{
+    width: 390px;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 600px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.listaDigitada{
+    width: 390px;
+    text-align: center;
+    position: absolute;
+    margin-top: 50px;
+    top: 0px;
+    left: 600px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.opcaoMediaAritmetica{
+    width: 120px;
+    height: 120px;
+    border: 1px solid white;
+    color: white;
+    position: absolute;
+    top: 120px;
+    left: 600px;
+    border-radius: 15px;
+    font-size: 13px;
+    text-align: center;
+    cursor:pointer;
+    line-height: 90px;
+}
+
+.opcaoMediaAritmetica{
+    width: 120px;
+    height: 120px;
+    border: 1px solid white;
+    color: white;
+    position: absolute;
+    top: 120px;
+    left: 600px;
+    border-radius: 15px;
+    font-size: 13px;
+    text-align: center;
+    cursor:pointer;
+    line-height: 90px;
+}
+
+.opcaoMediaAritmetica:hover{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.9);;
+}
+
+.opcaoMediaPonderada{
+    width: 120px;
+    height: 120px;
+    border: 1px solid white;
+    color: white;
+    position: absolute;
+    top: 120px;
+    left: 600px;
+    border-radius: 15px;
+    font-size: 13px;
+    text-align: center;
+    cursor:pointer;
+    line-height: 90px;
+}
+
+.opcaoMediaPonderada:hover{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.9);;
+}
+
+.moda{
+    width: 120px;
+    height: 120px;
+    border: 1px solid white;
+    color: white;
+    position: absolute;
+    top: 290px;
+    left: 600px;
+    border-radius: 15px;
+    font-size: 13px;
+    text-align: center;
+    cursor:pointer;
+    line-height: 90px;
+}
+
+.moda:hover{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.9);;
+}
+
+.mediana{
+    width: 120px;
+    height: 120px;
+    border: 1px solid white;
+    color: white;
+    position: absolute;
+    top: 290px;
+    left: 600px;
+    border-radius: 15px;
+    font-size: 13px;
+    text-align: center;
+    cursor:pointer;
+    line-height: 90px;
+}
+
+.mediana:hover{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.9);;
+}
+
+.botRedigitarLista{
+    text-align: center;
+    width: 390px;
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    left: 600px;
+}
+
+.botaoRedigitarLista{
+    width: 50%;
+    height: 50px;
+    background: linear-gradient(-145deg, rgb(130, 55, 188), rgb(0, 35, 82));
+    border-radius: 50px;
+    color: white;
+    border: none;
+    box-shadow: 15px 20px 100px rgba(15,10,-100,0.7);
+    font-family: 'Inconsolata', monospace;
+    font-size: 15px;
+    font-weight: 700;
+    box-sizing: border-box;
+}
+
+.botaoRedigitarLista:hover{
+    box-shadow: 0px 0px 100px rgba(15,10,10000000,0.7);
+    background: linear-gradient(-135deg, #932dc2, #2d47c9);
+    cursor:pointer;
+}
+
